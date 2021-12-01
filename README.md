@@ -1,6 +1,9 @@
 # Ai_Fall_2021
 Repository for Artificial Intelligence Course Project - Fall 2021
 MUHAMMAD UMAR KHAN - 10619
+Name: Omar Khan
+Student ID: 10619
+About:Hello its me omar currently in 5th semester
 
 **Group Member # 2:**
 Name: HAMZAH AMIN
