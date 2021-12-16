@@ -4,7 +4,7 @@ Repository for Artificial Intelligence Course Project - Fall 2021
 **Group Member # 1:**
 Name: Omar Khan
 Student ID: 10619
-About:Hello its me omar currently in 5th semester. I have 3.62 cgpa and im doing MARVELLOUS in this field.
+About: Hello its me omar currently in 5th semester. I have 3.62 cgpa and im doing MARVELLOUS in this field. My aim is to have a good learning and make amazing projects.
 
 **Group Member # 2:**
 Name: HAMZAH AMIN
