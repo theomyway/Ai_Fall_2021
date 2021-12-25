@@ -111,7 +111,7 @@ def simplify_sex(data):
 def drop_features(data):
     return data.drop(['Name','Ticket'], axis=1)
 
-# Perform all feature transformations. 
+# Perform all feature transformations.
 def transform_all(data):
     data = add_title(data)
     data = simplify_embark(data)
