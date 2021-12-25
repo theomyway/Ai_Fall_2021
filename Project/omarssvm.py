@@ -119,7 +119,7 @@ def transform_all(data):
     data = simplify_sex(data)
     data = drop_features(data)
     
-    return data
+    return data #--
 
 training_data = transform_all(training_data)
 test_data = transform_all(test_data)
