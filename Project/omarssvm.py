@@ -22,7 +22,7 @@ from sklearn.svm import SVC, LinearSVC
 from sklearn.naive_bayes import GaussianNB
 
 
-# Load the data. 
+# Load the data 
 training_data = pd.read_csv('C:/Users/Admin/Desktop/project/titanic_train.csv')
 test_data = pd.read_csv('C:/Users/Admin/Desktop/project/titanic_test.csv')
 # Examine the first few rows of data in the training set. 
