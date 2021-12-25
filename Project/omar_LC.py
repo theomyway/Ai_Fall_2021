@@ -22,7 +22,7 @@ y_train = np.ravel(train_data[labels])
 
 X_test = test_data[features]
 
-X_train.head() #--
+X_train.head() 
 def nan_clms(df):
     return [clm for clm in X_train.columns if df[clm].isnull().any()]
 
