@@ -52,5 +52,5 @@ pipe.fit(X_train, y_train)
 predictions  = pipe.predict(X_test)
 output = pd.DataFrame({"PassengerId": test_data["PassengerId"], "Survived": predictions})
 output.to_csv("submission.csv", index=False)
-#-
+#--
 
