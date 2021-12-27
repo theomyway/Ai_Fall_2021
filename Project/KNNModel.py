@@ -17,7 +17,7 @@ print(Y_prediction)
 submit = pd.DataFrame({
         "": test_df[""],
         "": Y_prediction
-    })
+  })
 submit.to_csv('OmarKhan_KNN.csv', index=False)
 
 KNN_f = KNeighborsClassifier(n_neighbors = 3)
