@@ -15,10 +15,10 @@ print(Y_prediction.shape)
 print(Y_prediction)
 
 submit = pd.DataFrame({
-        "PassId": test_df["PassId"],
-        "Survive": Y_prediction
+        "": test_df[""],
+        "": Y_prediction
     })
-submit.to_csv('Faizan_KNN.csv', index=False)
+submit.to_csv('OmarKhan_KNN.csv', index=False)
 
 KNN_f = KNeighborsClassifier(n_neighbors = 3)
 scores = cross_val_score(KNN_f, X_train, Y_train, cv=10, scoring = "accuracy")
