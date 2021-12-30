@@ -9,6 +9,8 @@ from sklearn.preprocessing import Normalizer
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np
+
+#uploading test and train files from google drive
 train = pd.read_csv('/content/drive/MyDrive/omartrain.csv')
 test = pd.read_csv('/content/drive/MyDrive/omartest.csv')
 #Using variable for labels
@@ -29,7 +31,7 @@ def min_max_scaling(df):
         df_norm[column] = (df_norm[column] - df_norm[column].min()) / (df_norm[column].max() - df_norm[column].min())
 
     return df_norm
-
+#Scaling the data and normalizing it
 train_norm = min_max_scaling(train)
 train_norm = train_norm.fillna(0.5)
 y_train = train_norm.Cover_Type;
