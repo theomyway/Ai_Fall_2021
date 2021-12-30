@@ -29,5 +29,5 @@ As for now i used KNN and naive bayes models of scikit as both as efficient for 
 Problems faced were the apply model on normalized data as data was split and exucution would go on forever. Then code was done in pieces bit by bit.
 #-References you used?
 I have used youtube and stackover flow for exceptions searching and overcoming problems.
-#-Screenshots?
+#-Screenshots?.
 All attached of my part. (Omar)
