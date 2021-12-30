@@ -39,13 +39,9 @@ t_train = train_norm
 scaler = MinMaxScaler()
 t_train = scaler.fit_transform(t_train)
 t_test = scaler.fit_transform(test)
-
 t_train = t_train.astype('float')
 y_train = y_train.astype('float')
 t_test = t_test.astype('int')
-
-
-
 
 mnb = linear_model.Lasso(alpha=1)
 mnb.fit(train_norm,y_train)
@@ -53,18 +49,19 @@ mnb.fit(train_norm,y_train)
 predictions = mnb.predict(test)
 print(predictions.shape)
 
-# Multinomial Naive Bayes
+# Applying scikit multiclass Multinomial Naive Bayes Algo
 mnb = MultinomialNB()
 mnb.fit(t_train, y_train)
 Y_pred = mnb.predict(t_test)
 acc_mnb = round(mnb.score(t_train, y_train) * 100, 2)
 print("Normalized Multinomial Naive Bayes accuracy =",round(acc_mnb,2,), "%")
 print(Y_pred.shape)
-
+#Exporting columns from dataframe
 submission = pd.DataFrame({
         "Id": test["Id"],
         "Cover_Type": Y_pred
     })
+#Making a file
 submission.to_csv('Omar_multinomialNaiveBayes.csv', index=False)
 
 
