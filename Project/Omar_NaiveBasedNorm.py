@@ -19,7 +19,7 @@ y = train.Cover_Type
 #For functions
 X = train.drop('Cover_Type', axis=1)
 
-#Splitting The Data y 20% and x 80%
+#Splitting The Data y 20% and 80% test train
 t_train, t_test, y_train, y_test = train_test_split(X, y,test_size=0.2)
 
 #For normalized data
