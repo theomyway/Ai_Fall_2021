@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pds
 from sklearn import linear_model
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
@@ -7,8 +7,10 @@ from sklearn.preprocessing import Normalizer
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np
-train = pd.read_csv('/content/drive/MyDrive/omartrain.csv')
-test = pd.read_csv('/content/drive/MyDrive/omartest.csv')
+
+#uploading files of test and train from drive
+train = pds.read_csv('/content/drive/MyDrive/omartrain.csv')
+test = pds.read_csv('/content/drive/MyDrive/omartest.csv')
 
 
 #Using variable for labels
