@@ -10,3 +10,5 @@ About: Hello its me omar currently in 5th semester. I have 3.62 cgpa and trying 
 Name: HAMZAH AMIN
 Student ID: 59672
 About: I am Hamzah Amin, ambivert in nature, student of Final Year in PAFKIET having CGPA of 3.3. Currently, I am in the field of e-commerce and social media marketing.  
+KNN Normalized Kaggle Submittion
+<img width="709" alt="OmarKNN" src="https://user-images.githubusercontent.com/91969204/147761720-55cf6933-220c-4a5f-aa20-d671a5fd68d6.PNG">
