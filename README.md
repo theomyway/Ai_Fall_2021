@@ -23,11 +23,11 @@ Our group divided the task of using 6 scikit multiclass identifiers into 2 group
 The task was achieved my first splitting the data into 20% 80%. Then normalization was performed then multiclass scikit idenfiers were put in to train the data and get score or predictions.
 
 #-Which models you selected and why?
-#As for now i used KNN and naive bayes models of scikit as both as efficient for good accuracy.
+As for now i used KNN and naive bayes models of scikit as both as efficient for good accuracy.
 #-What were the performances of each model on local test data?
 #-Problems you faced?
-#Problems faced were the apply model on normalized data as data was split and exucution would go on forever. Then code was done in pieces bit by bit.
+Problems faced were the apply model on normalized data as data was split and exucution would go on forever. Then code was done in pieces bit by bit.
 #-References you used?
-#I have used youtube and stackover flow for exceptions searching and overcoming problems.
+I have used youtube and stackover flow for exceptions searching and overcoming problems.
 #-Screenshots?
-#All attached of my part. (Omar)
+All attached of my part. (Omar)
