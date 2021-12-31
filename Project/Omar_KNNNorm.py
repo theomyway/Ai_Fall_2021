@@ -8,6 +8,10 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 import numpy as np
 
+#Mounting Our Drive On Cloab
+from google.colab import drive
+drive.mount('/content/drive')
+
 #uploading files of test and train from drive
 train = pds.read_csv('/content/drive/MyDrive/omartrain.csv')
 test = pds.read_csv('/content/drive/MyDrive/omartest.csv')
