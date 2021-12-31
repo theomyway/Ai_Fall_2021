@@ -20,7 +20,9 @@ About: I am Hamzah Amin, ambivert in nature, student of Final Year in PAFKIET ha
 
 Note: Omar's goals and contribution is to train 3 scikit identifies with normalization
       Hamza's contribution and goal is to train 3 scikit identifies without normalization
-PROJECT REPORT:
+      
+     
+********************************PROJECT REPORT:********************************
 
 -How you approached the task?
 
