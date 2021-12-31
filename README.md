@@ -17,6 +17,11 @@ About: I am Hamzah Amin, ambivert in nature, student of Final Year in PAFKIET ha
 
 <img width="713" alt="s5" src="https://user-images.githubusercontent.com/91969204/147763104-c5325275-83a0-4719-a1e7-a9bf7a1e0c4c.PNG">
 
+# Logistic Regression Kaggle Submittion
+
+<img width="700" alt="s1" src="https://user-images.githubusercontent.com/91969204/147822719-081e901c-700f-42cc-a80e-4fcb526392b8.PNG">
+
+
 
 **Note:** 
 
