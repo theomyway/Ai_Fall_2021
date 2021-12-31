@@ -53,5 +53,4 @@ I have used youtube and stackover flow for exceptions searching and overcoming p
 All attached of my part. (Omar)
 
 ****Result:****
-
-Uptil now the naive bayes normalized has the best accuracy result
+Uptil now the naive bayes normalized has the best accuracy result (Omar)
