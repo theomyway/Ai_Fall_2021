@@ -24,7 +24,7 @@ y = train.Cover_Type
 X = train.drop('Cover_Type', axis=1)
 
 #Splitting The Data y 20% and x 80%
-X_train, X_test, Y_train, Y_test = train_test_split(X, y,test_size=0.2)
+t_train, t_test, y_train, y_test = train_test_split(X, y,test_size=0.2)
 #Normalizing the data
 def min_max_scaling(df):
     # copy the dataframe
@@ -52,9 +52,9 @@ t_test = t_test.astype('int')
 
 #Applying KNN scikit multiclass identifier
 KNN_f = KNeighborsClassifier(n_neighbors = 3)
-KNN_f.fit(X_train, Y_train)
-Y_prediction = KNN_f.predict(X_test)
-acc_KNN_f = round(KNN_f.score(X_train, Y_train) * 100, 2)
+KNN_f.fit(t_train, y_train)
+Y_prediction = KNN_f.predict(t_test)
+acc_KNN_f = round(KNN_f.score(t_train, y_train) * 100, 2)
 print("  KNN Model  ")
 print("KNN Accuracies =",round(acc_KNN_f,2,), "%")
 print(Y_prediction.shape)
@@ -66,7 +66,7 @@ submission = pd.DataFrame({
         "Cover_Type": Y_prediction
     })
 #Making a file
-submit.to_csv('Omar_KNN.csv', index=False)
+submission.to_csv('Omar_KNN.csv', index=False)
 
 
 
