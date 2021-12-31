@@ -14,7 +14,7 @@ import numpy as np
 train = pds.read_csv('/content/drive/MyDrive/omartrain.csv')
 test = pds.read_csv('/content/drive/MyDrive/omartest.csv')
 
-#Using variable for labels
+#Using variable for labels.
 y = train.Cover_Type
 
 #For functions
