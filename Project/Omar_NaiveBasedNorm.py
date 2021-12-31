@@ -28,7 +28,7 @@ t_train, t_test, y_train, y_test = train_test_split(X, y,test_size=0.2)
 
 #For normalized data
 def min_max_scaling(df):
-    # copy the dataframe
+    # copying the dataframe
     df_norm = df.copy()
     # apply min-max scaling
     for column in df_norm.columns:
