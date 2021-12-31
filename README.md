@@ -18,8 +18,11 @@ About: I am Hamzah Amin, ambivert in nature, student of Final Year in PAFKIET ha
 <img width="713" alt="s5" src="https://user-images.githubusercontent.com/91969204/147763104-c5325275-83a0-4719-a1e7-a9bf7a1e0c4c.PNG">
 
 
-Note: Omar's goals and contribution is to train 3 scikit identifies with normalization
-      Hamza's contribution and goal is to train 3 scikit identifies without normalization
+**Note:** 
+
+-Omar's goals and contribution is to train 3 scikit identifies with normalization
+
+-Hamza's contribution and goal is to train 3 scikit identifies without normalization
       
      
 ********************************PROJECT REPORT:********************************
@@ -49,4 +52,6 @@ I have used youtube and stackover flow for exceptions searching and overcoming p
 
 All attached of my part. (Omar)
 
-Result: Uptil now the naive bayes normalized has the best accuracy result
+****Result:****
+
+Uptil now the naive bayes normalized has the best accuracy result
