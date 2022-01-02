@@ -67,7 +67,7 @@ submission = pd.DataFrame({
         "Id": test["Id"],
         "Cover_Type": Y_pred
     })
-#Making a file converting to csv.
+#Making a file converting to csv
 submission.to_csv('Omar_multinomialNaiveBayes.csv', index=False)
 
 
