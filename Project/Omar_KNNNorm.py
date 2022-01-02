@@ -13,15 +13,15 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 #uploading files of test and train from drive
-train = pds.read_csv('/content/drive/MyDrive/omartrain.csv')
+train_norm = pds.read_csv('/content/drive/MyDrive/omartrain.csv')
 test = pds.read_csv('/content/drive/MyDrive/omartest.csv')
 
 
 #Using variable for labels
-y = train.Cover_Type
+y = train_norm.Cover_Type
 
 #For functions
-X = train.drop('Cover_Type', axis=1)
+X = train_norm.drop('Cover_Type', axis=1)
 
 #Splitting The Data y 20% and x 80%
 t_train, t_test, y_train, y_test = train_test_split(X, y,test_size=0.2)
