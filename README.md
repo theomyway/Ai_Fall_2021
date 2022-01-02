@@ -48,8 +48,9 @@ As for now i used KNN and naive bayes models of scikit as both as efficient for 
 -Problems you faced?
 
 
-Problems faced were the apply model on normalized data as data was split and exucution would go on forever. Then code was done in pieces bit by bit.
-+ The other problem faced was uploading columns and data array was big as we just had 8000 columns and more columns were required to put into file.
++Problems faced were the apply model on normalized data as data was split and exucution would go on forever. Then code was done in pieces bit by bit.
+
++The other problem faced was uploading columns and data array was big as we just had 8000 columns and more columns were required to put into file.
 
 -References you used?
 
