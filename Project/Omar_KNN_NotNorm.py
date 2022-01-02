@@ -19,15 +19,15 @@ import numpy as np
 
 
 #uploading files of test and train from drive
-train_norm = pds.read_csv('/content/drive/MyDrive/omartrain.csv')
+train = pds.read_csv('/content/drive/MyDrive/omartrain.csv')
 test = pds.read_csv('/content/drive/MyDrive/omartest.csv')
 
 
 #Using variable for labels
-y = train_norm.Cover_Type
+y = train.Cover_Type
 
 #For functions
-X = train_norm.drop('Cover_Type', axis=1)
+X = train.drop('Cover_Type', axis=1)
 
 #Splitting The Data y 20% and x 80%
 t_train, t_test, y_train, y_test = train_test_split(X, y,test_size=0.2)
