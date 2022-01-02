@@ -64,7 +64,7 @@ print("Linear Classifiers Accuracy =",round(acc_log,2,), "%")
 print(Y_pred.shape)
 print(Y_pred)
 #Exporting columns from dataframe
-submission = pd.DataFrame({
+submission = pds.DataFrame({
         "Id": test["Id"],
         "Cover_Type": Y_pred
     })
