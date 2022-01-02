@@ -38,7 +38,7 @@ About: I am Hamzah Amin, ambivert in nature, student of Final Year in PAFKIET ha
 
 -How you approached the task?
 
-Our group divided the task of using 6 scikit multiclass identifiers into 2 group. One will perform nomalized and other will do it with non nomalized test data.The task was achieved my first splitting the data into 20% 80%. Then normalization was performed then multiclass scikit idenfiers were put in to train the data and get score or predictions
+Our group divided the task of using 6 scikit multiclass identifiers into 2 group. One will perform nomalized and other will do it with non nomalized test data.The task was achieved my first splitting the data into 20% 80%. Then normalization was performed then multiclass scikit idenfiers were put in to train the data and get score or predictions.
 
 -Which models you selected and why?
 
