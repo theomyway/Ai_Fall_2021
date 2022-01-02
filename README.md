@@ -23,14 +23,16 @@ About: I am Hamzah Amin, ambivert in nature, student of Final Year in PAFKIET ha
 
 <img width="700" alt="s1" src="https://user-images.githubusercontent.com/91969204/147822719-081e901c-700f-42cc-a80e-4fcb526392b8.PNG">
 
+# KNN Not Normalized Kaggle Submittion
+
+<img width="698" alt="s1" src="https://user-images.githubusercontent.com/91969204/147875801-7665d4cb-1f1a-443e-a33a-2af7e0edf427.PNG">
+
+
 
 
 **Note:** 
 
--Omar's goals and contribution is to train 3 scikit identifies with normalization
-
--Hamza's contribution and goal is to train 3 scikit identifies without normalization
-      
+-Omar's goals and contribution is to train 3 scikit identifies with normalization and non normalization     
      
 ********************************PROJECT REPORT:********************************
 
