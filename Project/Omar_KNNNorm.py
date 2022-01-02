@@ -61,7 +61,7 @@ print(Y_prediction.shape)
 print(Y_prediction)
 
 #Exporting Columns into dataframe
-submission = pd.DataFrame({
+submission = pds.DataFrame({
         "Id": test["Id"],
         "Cover_Type": Y_prediction
     })
