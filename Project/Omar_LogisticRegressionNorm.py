@@ -1,3 +1,4 @@
+#Importing basic and special libraries for further usage
 import numpy as np
 import pandas as pd
 import pandas as pds
@@ -44,7 +45,7 @@ t_test = scaler.fit_transform(test)
 t_train = t_train.astype('float')
 y_train = y_train.astype('float')
 t_test = t_test.astype('int')
-
+#For multinomial keeping aplha=1 and normalizing
 mnb = linear_model.Lasso(alpha=1)
 mnb.fit(train_norm,y_train)
 # Predictions
@@ -52,7 +53,7 @@ predictions = mnb.predict(test)
 print(predictions.shape)
 
 
-# Logistic Regression
+# Using Logistic Regression
 logreg = LogisticRegression()
 logreg.fit(t_train, y_train)
 Y_pred = logreg.predict(t_test)
@@ -68,6 +69,7 @@ submission = pds.DataFrame({
         "Id": test["Id"],
         "Cover_Type": Y_pred
     })
+#Creating a file to submit on kaggle
 submission.to_csv('OmarLogisticRegressionNorm.csv', index=False)
 
 
