@@ -1,3 +1,4 @@
+#Importing libraries to use further
 import pandas as pds
 from sklearn import linear_model
 from sklearn.linear_model import LogisticRegression
@@ -40,7 +41,7 @@ train_norm = train_norm.fillna(0.5)
 y_train = train_norm.Cover_Type;
 train_norm.drop('Cover_Type',inplace=True,axis=1)
 t_train = train_norm
-
+#Scaling test and train values and transforming (Part of normalization)
 scaler = MinMaxScaler()
 t_train = scaler.fit_transform(t_train)
 t_test = scaler.fit_transform(test)
@@ -65,7 +66,7 @@ submission = pds.DataFrame({
         "Id": test["Id"],
         "Cover_Type": Y_prediction
     })
-#Making a file
+#Making a file for submission on kaggle
 submission.to_csv('Omar_KNN.csv', index=False)
 
 
