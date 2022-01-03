@@ -41,6 +41,7 @@ acc_log = round(logreg.score(t_train, y_train) * 100, 2)
 
 print("--------------Logistic Regression Model--------------")
 
+#Predicting values in a new column
 print("Linear Classifiers Accuracy =",round(acc_log,2,), "%")
 print(Y_pred.shape)
 print(Y_pred)
@@ -49,4 +50,5 @@ submission = pds.DataFrame({
         "Id": test["Id"],
         "Cover_Type": Y_pred
     })
+#Creating file for submission on kaggle
 submission.to_csv('OmarLogisticRegression_NotNorm.csv', index=False)
